@@ -13,10 +13,10 @@ body{
     background-color: greenyellow;
 } */
 
-body,html{
+/* body,html{
     max-width: 100%;   
     overflow-x: hidden;
-}
+} */
 
 .header{
     display: flex;
@@ -257,7 +257,7 @@ footer{
 .footer{
     display: flex;
     
-    color: white;
+    /* color: white; */
     justify-content: space-between;
     /* margin: 40px; */
     padding: 10px;
@@ -273,6 +273,12 @@ footer{
 
 .address1{
     display: flex;
+    /* justify-content: flex-start; */
+}
+
+.address1 {
+    margin: 0;
+    /* padding: 10px; */
 }
 
 .icon{
